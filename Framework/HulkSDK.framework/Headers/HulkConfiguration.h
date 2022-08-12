@@ -9,9 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HULKConfiguration : NSObject
+@interface HulkConfiguration : NSObject
 
-@property (class, readonly, strong) HULKConfiguration *defaultConfiguration;
+@property (class, readonly, strong) HulkConfiguration *defaultConfiguration;
 
 @property (nonatomic, copy) NSString *socketUrl;//必填
 @property (nonatomic, copy) NSString *deviceId;

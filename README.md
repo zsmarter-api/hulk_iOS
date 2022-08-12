@@ -133,12 +133,12 @@ pod 'HulkSDK'
 ```objective-c
 HulkService *hulk = [HulkService defaultHULK];
 HULKConfiguration *config = [HULKConfiguration defaultConfiguration];
-config.appKey = @"xxxx";// appKey，后管平台生成
+config.appId = @"xxxx";// appId，后管平台生成
 config.appSecret = @"xxx";// appSecret，后管平台生成
 //以下数据均为非必填，用户根据需要配置
 config.location = @"成都市";// 位置，“成都市”,如果您需要通过位置筛选推送对象，传此字段
 config.uid = @"1234567890";// 用户id，如果您需要通过自定义用户id筛选推送对象，传此字段
-config.apnsId = [HULKConfiguration defaultConfiguration].apnsId;//请确保已在AppDelegate中已传给Hulk
+config.apnsId = [HulkConfiguration defaultConfiguration].apnsId;//请确保已在AppDelegate中已传给Hulk
 config.alias = "alias";
 [hulk updateUserInfo:config completionHandler:^{
     //Hulk用户信息成功成功

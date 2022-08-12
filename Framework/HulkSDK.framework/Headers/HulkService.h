@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class HULKConfiguration;
+@class HulkConfiguration;
 typedef void(^ __nullable hulkInitBlock)(NSString * _Nullable tid);
 
 NS_ASSUME_NONNULL_BEGIN
@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 更新用户信息
 /// @param configuration 配置信息
 /// @param completionHandler 更新回调
-- (void)updateUserInfo:(HULKConfiguration *)configuration
+- (void)updateUserInfo:(HulkConfiguration *)configuration
      completionHandler:(void (^)(void))completionHandler;
 
 //处理收到的 APNs 消息，用于统计用户消息送达、消息点击事件
