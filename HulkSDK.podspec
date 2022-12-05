@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HulkSDK"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "Hulk致力于为企业提供多场景、多应用、多推送方式的整体解决方案。"
   spec.description  = "Hulk致力于为企业提供多场景、多应用、多推送方式的整体解决方案。通过企业内简单部署，达到高效、安全、稳定的全渠道信息推送服务。同时提供多维度数据统计、多用户群分组管理、多渠道同时兼容、多类型信息推送等多样化功能支持。全面满足企业的各类信息推送需求！"
 
